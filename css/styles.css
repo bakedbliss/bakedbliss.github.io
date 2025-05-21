@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fdf6f0;
+    color: #050101;
+  }
+
+  header {
+    background-color: #861915;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.8em;
+    color: #e9dbd6;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: #f3dcd1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    font-weight: 600;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #a3563d;
+  }
+
+  section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h2 {
+    color: #a3563d;
+    border-bottom: 2px solid #e7c3b4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .menu div {
+    background-color: #faede6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .btn-cotiza {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #c97d60;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+  .btn-cotiza:hover {
+    background-color: #a3563d;
+  }
+
+  .redes a {
+    display: block;
+    margin: 5px 0;
+    color: #a3563d;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  footer {
+    background-color: #f3dcd1;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+
+  .galeria {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .imagen {
+      background-color: #fff;
+      border: 3px solid #f0d5c9;
+      padding: 10px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .imagen img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .nombre-sabor {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
